@@ -1,15 +1,30 @@
-import React from "react";
-import { headerData } from "./headerData";
+import Header_Data from './Header_Data';
+import { headerData } from './headerData';
+import { Navbar, Container } from 'react-bootstrap';
+import logo from '../image/reactJsLogo.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './header.css';
 
-export default function Header(props) {
+export default function Header() {
 
     return (
         <header>
-            <ul>
-                <li className="nav_items">
-                    <a className="nav_link" href="#home">{props.homePage}</a>
-                </li>
-            </ul>
+            <Navbar className = "NavBar" bg="dark" data-bs-theme="dark">
+                <img src={logo} className='logo' />
+                
+                <Container>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Header_Data
+                            homePage={headerData.homePage}
+                            title={headerData.moreInfo.title}
+                            subMenu={headerData.moreInfo.subMenu}
+                            about={headerData.about}
+                            contactMe={headerData.contactMe}
+                        />
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </header>
     );
 }
