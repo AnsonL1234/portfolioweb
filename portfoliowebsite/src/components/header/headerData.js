@@ -5,5 +5,5 @@ export const headerData = {
         subMenu: ['Project', 'Education','Cert Qualification']
     },
     about: 'About',
-    contactMe: 'Contact Me'
+    contactMe: 'Contact'
 }
