@@ -1,9 +1,10 @@
 export const headerData = {
     homePage: 'Home', 
-    moreInfo: {
-        title: 'More Info',
-        subMenu: ['Project', 'Education','Cert Qualification']
+    portfolio: 'Portfolio',
+    cv: 'Resume',
+    about: {
+        title: 'About',
+        subMenu: ['Project', 'Cert Qualification']
     },
-    about: 'About',
     contactMe: 'Contact'
 }

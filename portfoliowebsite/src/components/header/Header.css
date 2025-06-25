@@ -1,0 +1,7 @@
+.safe-dropdown {
+  right: 0;
+  left: auto;
+  max-width: 90vw; /* makes sure it never overflows */
+  overflow-x: auto; /* adds scroll if content is too wide */
+  z-index: 1050;     /* keeps it above other elements */
+}
