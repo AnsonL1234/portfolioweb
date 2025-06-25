@@ -33,22 +33,29 @@ export default function Header() {
                 </Navbar>
             </div>
 
-            <Nav className="ms-auto" data-bs-theme="dark">
-                <div className="d-flex align-items-center">
-                    <img src={signInIcon} style={{height: "30px", width: "30px"}} />
-                    <NavDropdown
-                        title="Sign In"
-                        id="about-dropdown"
-                        className="about-dropdown"
-                        align="end" // Bootstrap v5+ only
-                    >
-                        <NavDropdown.Item href="#team">Team</NavDropdown.Item>
-                        <NavDropdown.Item href="#mission">Mission</NavDropdown.Item>
-                        <NavDropdown.Item href="#careers">Careers</NavDropdown.Item>
-                    </NavDropdown>
-                </div>
+            <Nav data-bs-theme="dark">
+                <NavDropdown
+                    title= {
+                        <>
+                            <img
+                                src={signInIcon}
+                                width="30px"
+                                height="30px"
+                                className="rounded-circle"
+                                style={{ objectFit: 'cover' }}
+                            />
+                            <span className="text-white ms-2" >Sign In</span>
+                        </>
+                    }
+                    id="about-dropdown"
+                    className="about-dropdown"
+                    align="end"
+                >
+                    <NavDropdown.Item href="#team">Team</NavDropdown.Item>
+                    <NavDropdown.Item href="#mission">Mission</NavDropdown.Item>
+                    <NavDropdown.Item href="#careers">Careers</NavDropdown.Item>
+                </NavDropdown>
             </Nav>
-
         </header>
     );
 }
