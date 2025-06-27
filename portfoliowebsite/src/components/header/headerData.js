@@ -4,7 +4,7 @@ export const headerData = {
     cv: 'Resume',
     about: {
         title: 'About',
-        subMenu: ['Project', 'Cert Qualification']
+        subMenu: ['Developer', 'Project', 'Cert Qualification']
     },
     contactMe: 'Contact'
 }

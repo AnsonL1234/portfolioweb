@@ -1,7 +1,12 @@
-.safe-dropdown {
-  right: 0;
-  left: auto;
-  max-width: 90vw; /* makes sure it never overflows */
-  overflow-x: auto; /* adds scroll if content is too wide */
-  z-index: 1050;     /* keeps it above other elements */
+.react-logo {
+  height: 50px;
+  width: 50px;
 }
+
+.signInLogo {
+  width:30px;
+  height:30px;
+  margin-right: 6px;
+  object-fit: 'cover';
+}
+
