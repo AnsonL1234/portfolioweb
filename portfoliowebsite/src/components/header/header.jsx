@@ -1,8 +1,8 @@
 import Header_Components from './Header_Components';
-import { headerData } from './headerData';
+import { headerData } from './HeaderData';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import HeaderOffcanvas from './HeaderOffcanvas';
 import logo from '../image/reactJsLogo.png'
-import signInIcon from '../image/user.png'
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -29,27 +29,7 @@ export default function Header() {
                             contactMe={headerData.contactMe}
                         />
                     </Navbar.Collapse>
-
-                    <Nav data-bs-theme="dark" className='justify-content-end signInNav'>
-                        <NavDropdown
-                            title= {
-                                <>
-                                    <img
-                                        src={signInIcon}
-                                        class="signInLogo"
-                                    />
-                                    <span className="text-white ms-2" >Sign In</span>
-                                </>
-                            }
-                            id="about-dropdown"
-                            className="about-dropdown"
-                            align="end"
-                        >
-                            <NavDropdown.Item href="#team">Team</NavDropdown.Item>
-                            <NavDropdown.Item href="#mission">Mission</NavDropdown.Item>
-                            <NavDropdown.Item href="#careers">Careers</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
+                    <HeaderOffcanvas />
                 </Container>
             </Navbar>
         </header>
