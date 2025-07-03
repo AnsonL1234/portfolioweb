@@ -1,0 +1,7 @@
+.homepage-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    
+}

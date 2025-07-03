@@ -27,6 +27,9 @@ export default function HeaderOffcanvas() {
                     </Offcanvas.Title>
                 </Offcanvas.Header>
                 <hr />
+                <Offcanvas.Body>
+                    
+                </Offcanvas.Body>
             </Offcanvas>
         </>
     );

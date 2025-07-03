@@ -1,15 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './HomePage.css'
 
 export default function HomePage() {
     return (
-        <div class="toast" role="alert" aria-live='assertive' aria-atomic='true'>
-            <div className="toach-header d-flex">
-                <strong className="me-auto">Message from developer</strong>
-                <small>At 6/29/2025</small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label='Close'/>
+        <div className="homepage-body">
+            <div className="homepage-left">
+                <h3>This is homepage left position</h3>
             </div>
-            <div className="toast-body">
-                The page is still under develop, we will be meet up soon!
+
+            <div className="homepage-right">
+                <h3>This is homepage right position</h3>
             </div>
         </div>
     );
