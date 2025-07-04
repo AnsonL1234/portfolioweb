@@ -12,7 +12,7 @@ export default function Footer() {
                 <div className="footer-top-left">
                     <div className='footer-left-top'>
                         <img src={ReactLogo} alt='#' />
-                        React - Web APP Developme
+                        <h5>React - Web APP Developme</h5>
                     </div>
                     <div className="footer-left-bottom">
                         Home | Portfolio | Resume | About | Contact
