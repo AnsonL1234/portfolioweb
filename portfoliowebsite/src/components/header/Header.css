@@ -1,3 +1,10 @@
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  justify-content: space-between;
+}
 
 .react-logo {
   height: 50px;
@@ -9,8 +16,4 @@
   height:30px;
   margin-right: 6px;
   object-fit: 'cover';
-}
-
-.header_offcanvas {
-  justify-content: end;
 }

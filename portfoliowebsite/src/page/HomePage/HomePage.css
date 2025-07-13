@@ -1,7 +1,43 @@
+h2 {
+    color: whitesmoke;
+    font-size: 44px;
+}
+
+p {
+    font-size: 20px
+}
+
+input {
+    border-radius: 8px;
+    width: 810px;
+    height: 55px;
+    padding-left: 10px;
+}
+
 .homepage-body {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     min-height: 100vh;
-    
+
+}
+
+.homepage-firstsection {
+    display: block;
+    text-align: center;
+    padding-top: 45px;
+    height: 550px;
+}
+
+.homepage-secondsection {
+    height: 550px;
+    background-color: #202020;
+}
+
+@media only screen and (max-width: 900px)  {
+    .homepage-body-content {
+        flex-direction: column;
+    }
+
+    .homepage-left,.homepage-right {
+        width: 100%;
+    }
 }

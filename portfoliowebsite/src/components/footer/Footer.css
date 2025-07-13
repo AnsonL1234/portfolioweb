@@ -2,10 +2,6 @@ footer {
     margin-top: auto;
 }
 
-h5 {
-    margin: 0;
-}
-
 img {
     width: 43px;
     height: 43px;
@@ -15,18 +11,19 @@ img {
 ul {
     display: flex;
     list-style-type: none;
-    margin-right: 25px;
+}
+
+li {
+    margin-right: 8px;
 }
 
 li:hover {
     opacity: 0.6;
 }
 
-.verticle-line {
-    width: 1px;
-    height: 120px;
-    background-color: gray;
-    margin: 0 20px
+p {
+    color: whitesmoke;
+    font-size: 13px;
 }
 
 .footer-top {
@@ -63,8 +60,6 @@ li:hover {
 }
 
 .footer-bottom {
-    color: whitesmoke;
-    font-size: 11px;
     margin-bottom: 25px;
     text-align: center;
 }

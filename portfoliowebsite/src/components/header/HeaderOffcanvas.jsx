@@ -28,7 +28,7 @@ export default function HeaderOffcanvas() {
                 </Offcanvas.Header>
                 <hr />
                 <Offcanvas.Body>
-                    
+                    The functionality is coming out soon
                 </Offcanvas.Body>
             </Offcanvas>
         </>

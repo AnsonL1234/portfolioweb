@@ -1,3 +1,6 @@
+
+{/* Here is the header data that store in another file */}
+
 export const headerData = {
     homePage: 'Home', 
     portfolio: 'Portfolio',
@@ -6,5 +9,6 @@ export const headerData = {
         title: 'About',
         subMenu: ['Developer', 'Project', 'Cert Qualification']
     },
-    contactMe: 'Contact'
+    contactMe: 'Contact',
+    search: 'Search'
 }

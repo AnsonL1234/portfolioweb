@@ -19,8 +19,6 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className='verticle-line'></div>
-
                 <div className="footer-top-right">
                     <div className="footer-right-top">
                         <h5>Social Media</h5>
@@ -34,7 +32,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-bottom">
-                ©2025 Portfolio Website - Website and all created art style are reserved by Developer
+                <p>©2025 Portfolio Website - Website and all created art style are reserved by Developer</p>
             </div>
         </footer>
     );
