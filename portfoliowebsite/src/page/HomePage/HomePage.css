@@ -20,6 +20,21 @@ input[type=text] {
     font-size: 16px;
 }
 
+.link-text:link {
+    text-decoration: none;
+    color: #33bfe3;
+}
+
+.link-text:visited {
+    text-decoration: none;
+    color: #33bfe3;
+    background-color: transparent;
+}
+
+.link-text:hover {
+    text-decoration: underline;
+    color: #55c8e5;
+}
 
 .homepage-body {
     width: 100%;
@@ -32,6 +47,10 @@ input[type=text] {
     justify-content: space-evenly;
     padding-top: 45px;
     height: 550px;
+}
+
+.link-section {
+    margin-top: 18px;
 }
 
 .homepage-secondsection {
